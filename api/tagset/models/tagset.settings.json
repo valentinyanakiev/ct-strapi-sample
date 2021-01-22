@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tagsets",
+  "info": {
+    "name": "Tagset"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Tags": {
+      "type": "json"
+    }
+  }
+}

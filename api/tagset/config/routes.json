@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tagsets",
+      "handler": "tagset.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tagsets/count",
+      "handler": "tagset.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/tagsets/:id",
+      "handler": "tagset.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/tagsets",
+      "handler": "tagset.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tagsets/:id",
+      "handler": "tagset.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tagsets/:id",
+      "handler": "tagset.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
